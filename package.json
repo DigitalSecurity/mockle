@@ -1,7 +1,7 @@
 {
   "name": "mockle",
   "version": "0.1.0",
-  "description": "Bluetooth Low-Energy spoofing and MitM framework",
+  "description": "Bluetooth Low-Energy spoofing framework",
   "main": "index.js",
   "bin": {
     "mockle-create": "bin/cmd_mockle_create.js",
