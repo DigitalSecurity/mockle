@@ -1,0 +1,35 @@
+{
+  "name": "mockle",
+  "version": "0.1.0",
+  "description": "Bluetooth Low-Energy spoofing and MitM framework",
+  "main": "index.js",
+  "bin": {
+    "mockle": "cmd_mockle_create.js"
+  },
+  "dependencies": {
+    "async": "^1.5.2",
+    "bleno": "^0.4.0",
+    "colors": "^1.1.2",
+    "jsonfile": "^2.2.3",
+    "noble": "^1.3.0",
+    "socket.io": "^1.4.5",
+    "socket.io-client": "^1.4.5",
+    "argparse": "^1.0.7"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo 'no test command'; exit 1;"
+  },
+  "bin": {
+    "mockle-create":"bin/cmd_mockle_create.js",
+    "mockle-spoof":"bin/cmd_mockle_spoof.js"
+  },
+  "keywords": [
+    "bluetooth",
+    "le",
+    "spoofing",
+    "mitm"
+  ],
+  "author": "Damien Cauquil <damien.cauquil@digitalsecurity.fr>",
+  "license": "MIT"
+}
